@@ -6,7 +6,7 @@ def quick_sort(arr: List) -> List:
         return arr
     else:
         pivot = arr[0]
-        less = [i for i in arr if i < pivot]
+        less = [i for i in arr if i <= pivot]
         great = [i for i in arr if i > pivot]
     return quick_sort(less) + [pivot] + quick_sort(great)
 
