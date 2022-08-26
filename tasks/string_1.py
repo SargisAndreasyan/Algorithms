@@ -19,5 +19,5 @@ def check_identity(text: str) -> bool:
 
 
 if __name__ == '__main__':
-    txt = list(input("Введите текст-:"))
+    txt = input("Введите текст-:")
     print(check_identity(txt))
